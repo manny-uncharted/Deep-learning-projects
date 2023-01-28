@@ -1,14 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2023-01-28T13:35:43.217Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="4kVasqUHTZyTwxD_hczq" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-28T13:45:46.054Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="UBq05h_Ppp27Dork46wZ" version="20.8.13" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1435" dy="1913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2069" dy="1819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="sJYvFcCpyp4i4bCkkFPs-1" value="visit www.example.com/signin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-810" y="-1150" width="180" height="70" as="geometry" />
+        <mxCell id="sJYvFcCpyp4i4bCkkFPs-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sJYvFcCpyp4i4bCkkFPs-1" target="sJYvFcCpyp4i4bCkkFPs-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sJYvFcCpyp4i4bCkkFPs-2" value="Check the ipaddress and if the&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-650" y="-1060" width="120" height="60" as="geometry" />
+        <mxCell id="sJYvFcCpyp4i4bCkkFPs-1" value="visit www.example.com/signin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-810" y="-1160" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sJYvFcCpyp4i4bCkkFPs-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sJYvFcCpyp4i4bCkkFPs-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-540" y="-985" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJYvFcCpyp4i4bCkkFPs-6" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sJYvFcCpyp4i4bCkkFPs-5">
+          <mxGeometry x="-0.2464" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJYvFcCpyp4i4bCkkFPs-3" value="Check the ipaddress and if it does pass the firewall rule&amp;nbsp;&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-785" y="-1060" width="130" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="sJYvFcCpyp4i4bCkkFPs-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sJYvFcCpyp4i4bCkkFPs-7" target="sJYvFcCpyp4i4bCkkFPs-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-475" y="-860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJYvFcCpyp4i4bCkkFPs-7" value="pre-process the traffic information" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-550" y="-1015" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="sJYvFcCpyp4i4bCkkFPs-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sJYvFcCpyp4i4bCkkFPs-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-280" y="-820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJYvFcCpyp4i4bCkkFPs-11" value="Is bruteforce" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sJYvFcCpyp4i4bCkkFPs-10">
+          <mxGeometry x="-0.2354" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJYvFcCpyp4i4bCkkFPs-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sJYvFcCpyp4i4bCkkFPs-9" target="sJYvFcCpyp4i4bCkkFPs-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-480" y="-720" />
+              <mxPoint x="-480" y="-720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJYvFcCpyp4i4bCkkFPs-9" value="Bruteforce classifier&lt;br&gt;determine if it is bruteforce attack or not" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-557.5" y="-890" width="157.5" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sJYvFcCpyp4i4bCkkFPs-12" value="Blacklist the ipaddress and send to bruteforce datastore" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-280" y="-850" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sJYvFcCpyp4i4bCkkFPs-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=7;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sJYvFcCpyp4i4bCkkFPs-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-469.375" y="-560.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJYvFcCpyp4i4bCkkFPs-14" value="Allow the user to signin to www.example.com/signin" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-538.75" y="-690" width="138.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sJYvFcCpyp4i4bCkkFPs-16" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Not bruteforce&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-515" y="-740" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sJYvFcCpyp4i4bCkkFPs-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=7;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sJYvFcCpyp4i4bCkkFPs-18" target="sJYvFcCpyp4i4bCkkFPs-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-469.3699999999999" y="-470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJYvFcCpyp4i4bCkkFPs-18" value="Send&amp;nbsp; normal traffic data to data store for retraining" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=7;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-529.37" y="-560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sJYvFcCpyp4i4bCkkFPs-20" value="End" style="ellipse;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-529.37" y="-470" width="119.37" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
